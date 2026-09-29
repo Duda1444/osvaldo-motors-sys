@@ -1,0 +1,88 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+header { 
+    background-color: rgb(10, 10, 10); /* Preto puro para destacar o neon */
+    color: white; 
+    display: flex; 
+    gap: 1350px; 
+    border-bottom: 2px solid rgb(255, 95, 0); /* Linha fina de neon na base do menu */
+}
+
+    #other { 
+        display: flex; 
+        align-items: center; 
+        gap: 30px; 
+    } 
+
+main { 
+    background-color: rgb(20, 20, 20); /* Preto fosco profundo */
+    padding: 30px; 
+}
+
+    #intro {
+        background-color: rgb(255, 95, 0); /* Laranja Neon ultra-saturado */
+        color: rgb(0, 0, 0); /* Texto preto puro para máxima leitura sobre o neon */
+        border-radius: 20px; 
+        width: 100%; 
+        height: 350px; 
+        align-items: center; 
+        display: flex; 
+        gap: 400px; 
+        padding-left: 10px; 
+        /* Efeito de brilho neon em volta do banner principal */
+        box-shadow: 0 0 25px rgba(255, 95, 0, 0.4); 
+    } 
+
+    #intro h1 {  
+        font-size: 55px;
+        line-height: 0.95;
+        max-width: 550px; 
+    }
+       
+    #intro img { 
+        width: 20%; 
+        height: 90%; 
+        border-radius: 30px; 
+        border: 2px solid rgb(0, 0, 0); /* Borda preta na imagem para destacar do fundo */
+    } 
+
+    #gal-cards { 
+        padding: 30px; 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        gap: 30px;
+    } 
+
+    .cards { 
+        background-color: rgb(15, 15, 15); /* Fundo do card em preto */
+        color: white; 
+        border-radius: 30px; 
+        width: 30%; 
+        height: 400px; 
+        padding-left: 30px; 
+        border: 2px solid rgb(255, 95, 0); 
+        box-shadow: 0 0 15px rgba(255, 95, 0, 0.3); 
+    } 
+
+    .cards img { 
+        width: 90%; 
+        height: 80%; 
+        border-radius: 30px; 
+        margin-top: 15px; 
+    } 
+
+footer {
+     
+    background-color: rgb(10, 10, 10); 
+    padding: 20px; 
+    border-top: 2px solid rgb(255, 95, 0); 
+}
+
+footer p {
+    color: white;
+}
