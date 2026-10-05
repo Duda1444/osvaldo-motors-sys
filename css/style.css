@@ -76,6 +76,53 @@ main {
         margin-top: 15px; 
     } 
 
+
+#lista-osvaldo {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 2px solid rgb(255, 95, 0);
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 30px;
+    box-shadow: 0 0 15px rgba(255, 95, 0, 0.3);
+}
+
+#lista-osvaldo p {
+    color: rgb(255, 95, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#lista-osvaldo li {
+    margin: 10px;
+}
+
+
+#tabela-osvaldo {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 2px solid rgb(255, 95, 0);
+    box-shadow: 0 0 15px rgba(255, 95, 0, 0.3);
+}
+
+#tabela-osvaldo th {
+    background-color: rgb(255, 95, 0);
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#tabela-osvaldo td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(255, 95, 0);
+}
+
+
 footer {
      
     background-color: rgb(10, 10, 10); 
